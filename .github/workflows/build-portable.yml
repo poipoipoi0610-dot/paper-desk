@@ -1,0 +1,48 @@
+name: Build and upload portable packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: windows-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+          path: release-source
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13'
+      - name: Build both archives and verify Windows
+        run: python packaging/build_portable.py --source release-source --output dist --test-windows
+      - name: Attach packages to the existing release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          $version = (Get-Content release-source/version.json | ConvertFrom-Json).version
+          if ($env:RELEASE_TAG -ne "v$version") { throw 'The package and release versions differ.' }
+          $assets = @(
+            "dist/PaperDesk-Windows-x64-$env:RELEASE_TAG.zip",
+            "dist/PaperDesk-macOS-arm64-$env:RELEASE_TAG.zip",
+            "dist/SHA256SUMS.txt"
+          )
+          gh release upload $env:RELEASE_TAG @assets --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
