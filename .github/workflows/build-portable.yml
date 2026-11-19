@@ -3,7 +3,7 @@ name: Build and upload portable packages
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/build-portable.yml']
+    paths: ['.github/workflows/build-portable.yml', 'packaging/build_portable.py']
   workflow_dispatch:
 
 permissions:

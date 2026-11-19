@@ -174,9 +174,9 @@ def test_windows(package, folder):
     codex = root / 'tools' / 'codex' / 'vendor' / 'x86_64-pc-windows-msvc' / 'bin' / 'codex.exe'
     subprocess.run([str(codex), '--version'], cwd=root, check=True, timeout=30)
     env = os.environ | {'PAPER_DESK_DATA': str(folder / 'smoke-data')}
-    subprocess.run([str(python), '-E', '-s', '-B', str(root / 'launch.py'), '--help'],
+    subprocess.run([str(python), '-E', '-s', '-B', '-X', 'utf8', str(root / 'launch.py'), '--help'],
                    cwd=root, env=env, check=True, timeout=30)
-    subprocess.run([str(python), '-E', '-s', '-B', '-m', 'unittest', 'discover', '-s', 'tests', '-q'],
+    subprocess.run([str(python), '-E', '-s', '-B', '-X', 'utf8', '-m', 'unittest', 'discover', '-s', 'tests', '-q'],
                    cwd=root, env=env, check=True, timeout=90)
 
 def main():
