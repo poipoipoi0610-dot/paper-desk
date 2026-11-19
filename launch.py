@@ -13,9 +13,13 @@ import time
 from urllib.request import build_opener, ProxyHandler
 import webbrowser
 
+ROOT = Path(__file__).resolve().parent
+# The Windows embeddable interpreter can omit the directory of the entry script.
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from app_paths import data_directory, instance_identity
 
-ROOT = Path(__file__).resolve().parent
 URL = 'http://127.0.0.1:8766'
 LOCAL_HTTP = build_opener(ProxyHandler({}))
 

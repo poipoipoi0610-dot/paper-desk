@@ -8,8 +8,8 @@
 
 | 系统 | 下载包 | 启动方式 |
 | --- | --- | --- |
-| Windows 11 x64（Intel / AMD） | `PaperDesk-Windows-x64-v1.1.1.zip` | 双击 **Start Paper Desk.bat** |
-| macOS 14+（Apple 芯片） | `PaperDesk-macOS-arm64-v1.1.1.zip` | 双击 **启动阅研.command** |
+| Windows 11 x64（Intel / AMD） | `PaperDesk-Windows-x64-v1.1.2.zip` | 双击 **Start Paper Desk.bat** |
+| macOS 14+（Apple 芯片） | `PaperDesk-macOS-arm64-v1.1.2.zip` | 双击 **启动阅研.command** |
 
 两个便携包均内置 Python、PDF 依赖和 Codex CLI。Windows 如果提示缺少 Visual C++ 运行库，请安装 [Microsoft 官方 x64 运行库](https://aka.ms/vc14/vc_redist.x64.exe)。启动后会打开本机浏览器，退出时在启动窗口按 Ctrl+C。详细步骤见包内《先读我-安装与迁移》。
 

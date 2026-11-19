@@ -1,4 +1,4 @@
-﻿阅研 · Paper Desk 可移植版 1.1.1（2026-11-19）
+﻿阅研 · Paper Desk 可移植版 1.1.2（2026-11-19）
 
 适用电脑：Windows 11，64 位 Intel / AMD 电脑；此包不适用于 Windows ARM
 

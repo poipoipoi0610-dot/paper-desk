@@ -3,7 +3,7 @@ The Paper Desk application is distributed under the GNU Affero General Public Li
 Third-party components retain their upstream copyright notices and licenses.
 See SOURCES.md for source archives and runtime-sources.json for the pinned runtime packages.
 
-PyMuPDF / MuPDF 2.0: GNU AGPL-3.0 or Artifex commercial licensing.
+PyMuPDF 2.0 / MuPDF 1.28.5: GNU AGPL-3.0 or Artifex commercial licensing.
 License and notices are retained in the PyMuPDF distribution under runtime/python/.
 
 Python: Python Software Foundation License.

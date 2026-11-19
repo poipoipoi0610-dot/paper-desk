@@ -12,16 +12,21 @@ import os
 from pathlib import Path
 import re
 import secrets
+import sys
 import threading
 import time
 from urllib.parse import urlparse, parse_qs, unquote
+
+ROOT = Path(__file__).resolve().parent
+# The Windows embeddable interpreter can omit the directory of the entry script.
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from app_paths import data_directory, instance_identity
 from codex_bridge import CodexBridge
 from zotero_client import ZoteroClient
 from pdf_engine import extract_pdf, translated_page, render_page, render_svg, extract_figures, export_pdf, download_paper, MAX_BYTES, PDF_LOCK
 
-ROOT = Path(__file__).resolve().parent
 DATA = data_directory()
 DATA.mkdir(parents=True, exist_ok=True)
 if os.name != 'nt':
