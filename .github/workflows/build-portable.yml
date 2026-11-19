@@ -1,9 +1,6 @@
 name: Build and upload portable packages
 
 on:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/build-portable.yml', 'packaging/build_portable.py']
   workflow_dispatch:
 
 permissions:
@@ -11,7 +8,7 @@ permissions:
 
 jobs:
   release:
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'Fix Windows startup and publish'))
+    if: github.ref == 'refs/heads/main'
     runs-on: windows-latest
     timeout-minutes: 20
     concurrency:
@@ -51,7 +48,3 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           gh release edit $tag --repo $env:GITHUB_REPOSITORY --draft=false --latest
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          if ($tag -eq 'v1.1.2') {
-            gh release edit v1.1.1 --repo $env:GITHUB_REPOSITORY --prerelease --latest=false --notes "此构建预览已由 v1.1.2 取代。请从 v1.1.2 下载 Windows 和 macOS 安装包。"
-            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          }
