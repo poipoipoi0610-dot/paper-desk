@@ -1,0 +1,19 @@
+Paper Desk · 阅研
+The Paper Desk application is distributed under the GNU Affero General Public License, version 3.
+Third-party components retain their upstream copyright notices and licenses.
+See SOURCES.md for source archives and runtime-sources.json for the pinned runtime packages.
+
+PyMuPDF / MuPDF 2.0: GNU AGPL-3.0 or Artifex commercial licensing.
+License and notices are retained in the PyMuPDF distribution under runtime/python/.
+
+Python: Python Software Foundation License.
+The macOS runtime comes from Astral python-build-standalone.
+Windows uses the official CPython embeddable package.
+Upstream component notices are retained under runtime/python/.
+
+OpenAI Codex 0.169.1: Apache-2.0.
+License: licenses/Codex-Apache-2.0.txt.
+Bundled Codex resources retain upstream notices under tools/codex/.
+
+For Windows systems that need the Microsoft Visual C++ x64 Redistributable,
+obtain it from https://aka.ms/vc14/vc_redist.x64.exe.

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "python-3.13.16-embed-amd64.zip",
+    "url": "https://www.python.org/ftp/python/3.13.16/python-3.13.16-embed-amd64.zip",
+    "sha256": "97dae5274cc54867065e8d5a3226e48c35017ed332a0fdb0e27d5b5821961297",
+    "bytes": 11439094
+  },
+  {
+    "name": "pymupdf-2.0-cp311-abi3-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/31/61/98466052527e1feebbe64f6a63c47933647c3fdea79687a4b69eab7a97a0/pymupdf-2.0-cp311-abi3-win_amd64.whl",
+    "sha256": "f59f009b1586d56882739189cd3a4f0240efbfae28ebf268a3763ed9a2006270",
+    "bytes": 62998345
+  },
+  {
+    "name": "codex-0.169.1-win32-x64.tgz",
+    "package": "@openai/codex",
+    "version": "0.169.1",
+    "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.169.1-win32-x64.tgz",
+    "sha256": "414b99795d845a6cbc9cb760dc1c93945dba7cc3bf171dd5789951f93518004d",
+    "sha512": "7c89975aac70c6a1e1f7e161256b11445881ce006b49e3756d84efb4666d50a1933f31de7d800bd5a82695fe5749c7f06398b9a47b04c5f76115e9334416ea23",
+    "size": 187066459,
+    "checksumVerifiedAgainst": "https://registry.npmjs.org/@openai%2fcodex/0.169.1-win32-x64"
+  },
+  {
+    "name": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+    "package": "flatbuffers",
+    "version": "25.12.19",
+    "url": "https://files.pythonhosted.org/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl",
+    "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+    "bytes": 26661,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/flatbuffers/25.12.19/json"
+  },
+  {
+    "name": "networkx-3.7-py3-none-any.whl",
+    "package": "networkx",
+    "version": "3.7",
+    "url": "https://files.pythonhosted.org/packages/7e/cd/fe58041e9011f307c490e3e17dd48cc516448f7c698a3f2d9d9d65d7e6a8/networkx-3.7-py3-none-any.whl",
+    "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+    "bytes": 2142205,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/networkx/3.7/json"
+  },
+  {
+    "name": "numpy-2.5.4-cp313-cp313-win_amd64.whl",
+    "package": "numpy",
+    "version": "2.5.4",
+    "url": "https://files.pythonhosted.org/packages/90/8c/140a40398a66b4471211be1affdb6ed24c486d581bd28d07b7f2fcb69540/numpy-2.5.4-cp313-cp313-win_amd64.whl",
+    "sha256": "8b4d2fd2d34e5f8c9235ee787de5631a37a28402b15cb80814df973d2be54129",
+    "bytes": 12566113,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/numpy/2.5.4/json"
+  },
+  {
+    "name": "onnxruntime-1.31.0-cp313-cp313-win_amd64.whl",
+    "package": "onnxruntime",
+    "version": "1.31.0",
+    "url": "https://files.pythonhosted.org/packages/c4/86/05ed2056f43b27aaf12ebc592ebd9037a26bed315958cf882f43425fd469/onnxruntime-1.31.0-cp313-cp313-win_amd64.whl",
+    "sha256": "73e0165d58ece068c2a8a1c477c90b38e5a8adbbd399fdfdfd4bd79cbc28ff8d",
+    "bytes": 14888306,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/onnxruntime/1.31.0/json"
+  },
+  {
+    "name": "packaging-26.3-py3-none-any.whl",
+    "package": "packaging",
+    "version": "26.3",
+    "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "bytes": 129956,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/packaging/26.3/json"
+  },
+  {
+    "name": "protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+    "package": "protobuf",
+    "version": "7.36.2",
+    "url": "https://files.pythonhosted.org/packages/8a/55/b77bda4e5e5f5971fb51b07663694690e9afdb9402136c16a522bd621cad/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+    "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353",
+    "bytes": 456514,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/protobuf/7.36.2/json"
+  },
+  {
+    "name": "psutil-7.2.2-cp37-abi3-win_amd64.whl",
+    "package": "psutil",
+    "version": "7.2.2",
+    "url": "https://files.pythonhosted.org/packages/b4/90/e2159492b5426be0c1fef7acba807a03511f97c5f86b3caeda6ad92351a7/psutil-7.2.2-cp37-abi3-win_amd64.whl",
+    "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+    "bytes": 137737,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/psutil/7.2.2/json"
+  },
+  {
+    "name": "pymupdf4llm-2.0-py3-none-any.whl",
+    "package": "pymupdf4llm",
+    "version": "2.0",
+    "url": "https://files.pythonhosted.org/packages/b1/86/91671857614bbf931c04532c11572c70fa2031862b1332befcd3bcde1f51/pymupdf4llm-2.0-py3-none-any.whl",
+    "sha256": "43d4b4a2d0bf8b9b4d7f21a48875ef0016018dbad6677ef6b01ef2b0f6e392dd",
+    "bytes": 904,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/pymupdf4llm/2.0/json"
+  },
+  {
+    "name": "pymupdf_layout-2.0-py3-none-any.whl",
+    "package": "pymupdf_layout",
+    "version": "2.0",
+    "url": "https://files.pythonhosted.org/packages/37/4e/d8a1eca5fda53a7a288d4f1e0f8d625344bbc84d5d9d4e5b95c73c8789d2/pymupdf_layout-2.0-py3-none-any.whl",
+    "sha256": "03ac486c796839eae5c46e910364ad524fb1e83c7dc34553e8e704939d0236a7",
+    "bytes": 927,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/pymupdf_layout/2.0/json"
+  },
+  {
+    "name": "pyyaml-6.0.3-cp313-cp313-win_amd64.whl",
+    "package": "PyYAML",
+    "version": "6.0.3",
+    "url": "https://files.pythonhosted.org/packages/97/c9/39d5b874e8b28845e4ec2202b5da735d0199dbe5b8fb85f91398814a9a46/pyyaml-6.0.3-cp313-cp313-win_amd64.whl",
+    "sha256": "79005a0d97d5ddabfeeea4cf676af11e647e41d81c9a7722a193022accdb6b7c",
+    "bytes": 154090,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/PyYAML/6.0.3/json"
+  },
+  {
+    "name": "tabulate-0.10.0-py3-none-any.whl",
+    "package": "tabulate",
+    "version": "0.10.0",
+    "url": "https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+    "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+    "bytes": 39814,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/tabulate/0.10.0/json"
+  }
+]

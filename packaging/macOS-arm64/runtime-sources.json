@@ -1,0 +1,126 @@
+[
+  {
+    "name": "cpython-3.13.18+20261110-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261110/cpython-3.13.18%2B20261110-aarch64-apple-darwin-install_only_stripped.tar.gz",
+    "sha256": "7a2384641584ab9984221fcb0fc9265df465922af71be71410529e2a9c3f0540",
+    "bytes": 25479437
+  },
+  {
+    "name": "codex-0.169.1-darwin-arm64.tgz",
+    "package": "@openai/codex",
+    "version": "0.169.1",
+    "url": "https://registry.npmjs.org/@openai/codex/-/codex-0.169.1-darwin-arm64.tgz",
+    "sha256": "1a11a5744b18a211a6d2440dcd3295192e311e365edd83b3f8f1b4091c3ccdd1",
+    "sha512": "c8e2af08992d95bc5d113b57022773d86702e33fd63183e6bb6a659dc609b542390219c5204c5e9fc9fd78bfc497a9fd8586f3cd915fd498325bbc87c7a9304f",
+    "size": 153841405,
+    "checksumVerifiedAgainst": "https://registry.npmjs.org/@openai%2fcodex/0.169.1-darwin-arm64"
+  },
+  {
+    "name": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+    "package": "flatbuffers",
+    "version": "25.12.19",
+    "url": "https://files.pythonhosted.org/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl",
+    "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+    "bytes": 26661,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/flatbuffers/25.12.19/json"
+  },
+  {
+    "name": "networkx-3.7-py3-none-any.whl",
+    "package": "networkx",
+    "version": "3.7",
+    "url": "https://files.pythonhosted.org/packages/7e/cd/fe58041e9011f307c490e3e17dd48cc516448f7c698a3f2d9d9d65d7e6a8/networkx-3.7-py3-none-any.whl",
+    "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+    "bytes": 2142205,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/networkx/3.7/json"
+  },
+  {
+    "name": "numpy-2.5.4-cp313-cp313-macosx_14_0_arm64.whl",
+    "package": "numpy",
+    "version": "2.5.4",
+    "url": "https://files.pythonhosted.org/packages/e2/84/6a3d75b3ba3dfe84ac0053450753d1e6d250a8bf80f66474cc46d1fb643f/numpy-2.5.4-cp313-cp313-macosx_14_0_arm64.whl",
+    "sha256": "6d6a71b9d9a97c03633aa12565ef2825ffa036cc1d99cfd50dacf0f128af4fe2",
+    "bytes": 5445803,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/numpy/2.5.4/json"
+  },
+  {
+    "name": "onnxruntime-1.31.0-cp313-cp313-macosx_14_0_arm64.whl",
+    "package": "onnxruntime",
+    "version": "1.31.0",
+    "url": "https://files.pythonhosted.org/packages/e0/2b/117f94d73a3bac4276c285c47e384e1b3ea67b191aa4c7592df9d3f4a136/onnxruntime-1.31.0-cp313-cp313-macosx_14_0_arm64.whl",
+    "sha256": "0ba02a44acb6203040354d9a1f160e3f37a43feac7bb05caa3e0ea545efed505",
+    "bytes": 20881803,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/onnxruntime/1.31.0/json"
+  },
+  {
+    "name": "packaging-26.3-py3-none-any.whl",
+    "package": "packaging",
+    "version": "26.3",
+    "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+    "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "bytes": 129956,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/packaging/26.3/json"
+  },
+  {
+    "name": "protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl",
+    "package": "protobuf",
+    "version": "7.36.2",
+    "url": "https://files.pythonhosted.org/packages/32/72/98342feb672507c8f3a69e34b4fa8961f608edba5c1a48a6f47156d92cb5/protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl",
+    "sha256": "cbc70b17ee27e28894c7fee8bb04be1abead49e936bc70eb60052531eee2079e",
+    "bytes": 456039,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/protobuf/7.36.2/json"
+  },
+  {
+    "name": "psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl",
+    "package": "psutil",
+    "version": "7.2.2",
+    "url": "https://files.pythonhosted.org/packages/80/c4/f5af4c1ca8c1eeb2e92ccca14ce8effdeec651d5ab6053c589b074eda6e1/psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl",
+    "sha256": "1a7b04c10f32cc88ab39cbf606e117fd74721c831c98a27dc04578deb0c16979",
+    "bytes": 129859,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/psutil/7.2.2/json"
+  },
+  {
+    "name": "pymupdf-2.0-cp311-abi3-macosx_11_0_arm64.whl",
+    "package": "pymupdf",
+    "version": "2.0",
+    "url": "https://files.pythonhosted.org/packages/bf/0d/f72a28bb74af3e6ced3766000381f75eea119d59dbcce376ef3fbc886796/pymupdf-2.0-cp311-abi3-macosx_11_0_arm64.whl",
+    "sha256": "707594e8de4946445489ca3274943911a505a5cb665adf8751a4edfc4c0fff58",
+    "bytes": 67154024,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/pymupdf/2.0/json"
+  },
+  {
+    "name": "pymupdf4llm-2.0-py3-none-any.whl",
+    "package": "pymupdf4llm",
+    "version": "2.0",
+    "url": "https://files.pythonhosted.org/packages/b1/86/91671857614bbf931c04532c11572c70fa2031862b1332befcd3bcde1f51/pymupdf4llm-2.0-py3-none-any.whl",
+    "sha256": "43d4b4a2d0bf8b9b4d7f21a48875ef0016018dbad6677ef6b01ef2b0f6e392dd",
+    "bytes": 904,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/pymupdf4llm/2.0/json"
+  },
+  {
+    "name": "pymupdf_layout-2.0-py3-none-any.whl",
+    "package": "pymupdf_layout",
+    "version": "2.0",
+    "url": "https://files.pythonhosted.org/packages/37/4e/d8a1eca5fda53a7a288d4f1e0f8d625344bbc84d5d9d4e5b95c73c8789d2/pymupdf_layout-2.0-py3-none-any.whl",
+    "sha256": "03ac486c796839eae5c46e910364ad524fb1e83c7dc34553e8e704939d0236a7",
+    "bytes": 927,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/pymupdf_layout/2.0/json"
+  },
+  {
+    "name": "pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl",
+    "package": "PyYAML",
+    "version": "6.0.3",
+    "url": "https://files.pythonhosted.org/packages/b1/16/95309993f1d3748cd644e02e38b75d50cbc0d9561d21f390a76242ce073f/pyyaml-6.0.3-cp313-cp313-macosx_11_0_arm64.whl",
+    "sha256": "2283a07e2c21a2aa78d9c4442724ec1eb15f5e42a723b99cb3d822d48f5f7ad1",
+    "bytes": 173252,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/PyYAML/6.0.3/json"
+  },
+  {
+    "name": "tabulate-0.10.0-py3-none-any.whl",
+    "package": "tabulate",
+    "version": "0.10.0",
+    "url": "https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+    "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+    "bytes": 39814,
+    "checksumVerifiedAgainst": "https://pypi.org/pypi/tabulate/0.10.0/json"
+  }
+]
